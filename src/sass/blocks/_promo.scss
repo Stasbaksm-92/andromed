@@ -1,0 +1,30 @@
+.promo {
+    min-height: 460px;
+    padding: 100px;
+    background-color: $backgrond-color;
+
+    &__items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-content: center;
+
+    }
+
+    &__item {
+        padding: 30px 10px 50px 20px;
+        display: flex;
+        align-items: center;
+        align-content: center;
+
+
+    }
+
+    &__text {
+        padding-left: 10px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+    }
+}

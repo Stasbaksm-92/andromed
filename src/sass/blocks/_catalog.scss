@@ -1,0 +1,39 @@
+.catalog {
+    margin-top: 80px;
+
+    &__title {
+        margin-bottom: 60px;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 44px;
+        color: $Primery-color;
+        text-shadow: 35px -29px 1px#ECEFF0;
+    }
+
+    &__tabs {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        /*  border-bottom: 3px solid rgba(5, 207, 220, .5); */
+
+    }
+
+    &__tab {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        border-bottom: 3px solid transparent;
+        cursor: pointer;
+        transition: all .5s;
+    }
+
+    &__tab:hover {
+        border-bottom: 4px solid #05CFDC;
+
+    }
+
+    &__content {
+        margin-top: 80px;
+    }
+}

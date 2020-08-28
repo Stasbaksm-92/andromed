@@ -1,0 +1,108 @@
+.header {
+    background: url('../bg/bg1.jpg') center (center/cover) no-repeat;
+    min-height: 1020px;
+    padding: 21px 0 93px 0;
+
+    &__top {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu {
+        &__list {
+            padding-top: 20px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        &__list-items {
+            list-style: none;
+
+        }
+
+        &__list-link {
+            padding-left: 70px;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 23px;
+            color: #FCFCFC;
+
+        }
+    }
+
+
+    &__top-inner {
+        margin: 130px;
+        color: $stroke-color;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__title {
+        padding-bottom: 20px;
+        margin: 0 auto;
+        font-weight: 600;
+        font-size: 56px;
+        line-height: 68px;
+
+        span {
+            color: $Primery-color;
+        }
+    }
+
+    &__text {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+    }
+
+    &__consultation {}
+
+    &__consultation-title {
+        margin-bottom: 40px;
+        color: #ffff;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 29px;
+        text-align: center;
+
+        span {
+            color: $Primery-color;
+        }
+    }
+
+    &__contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    &__contact-title {
+        margin-bottom: 20px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        color: $Primery-color;
+    }
+
+    &__contact-phone {
+        padding-bottom: 20px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        color: #ffff;
+
+        &:hover {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+    }
+
+    &__contact-pagedown {
+        margin-top: 25px;
+    }
+}

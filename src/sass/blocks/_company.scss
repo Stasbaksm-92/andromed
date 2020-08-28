@@ -1,0 +1,42 @@
+.company {
+
+    .company-wrapper {
+        /* margin-left: 100px; */
+        display: flex;
+        justify-content: space-evenly;
+
+        &__about {
+
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__title {
+            margin-bottom: 60px;
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 44px;
+            color: $Primery-color;
+            text-shadow: 35px -29px 1px#ECEFF0;
+        }
+
+
+        &__descr {
+            padding-bottom: 20px;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 22px;
+            color: #072139;
+
+        }
+
+        &__img {
+
+
+            img {
+                width: 100%;
+
+            }
+        }
+    }
+}
