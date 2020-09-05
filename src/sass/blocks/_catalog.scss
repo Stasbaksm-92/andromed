@@ -1,6 +1,14 @@
 .catalog {
     margin-top: 80px;
 
+    &__content {
+        display: none;
+
+        &_active {
+            display: block;
+        }
+    }
+
     &__title {
         margin-bottom: 60px;
         font-weight: 600;
@@ -31,9 +39,11 @@
     &__tab:hover {
         border-bottom: 4px solid #05CFDC;
 
+
     }
 
     &__content {
+
         margin-top: 80px;
 
     }

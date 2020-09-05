@@ -1,20 +1,27 @@
 .slider {
-    /*  display: flex; */
+    display: flex;
+    justify-content: center;
     position: relative;
     padding: 0 50px;
     min-width: 0;
-    padding: 0 50px;
+    padding: 0 60px;
+
 
     &__item {
+
+
         img {
-            width: 550px;
-            height: 750[x];
+            width: 750px;
+            height: 750px;
         }
     }
 
 
     .slick-track {
+        padding-bottom: 100px;
         display: flex;
+        align-items: flex-start;
+        justify-content: center;
 
     }
 
@@ -27,28 +34,42 @@
     .slick-arrow {
         position: absolute;
         margin: -30px 0px 0px 0px;
-        top: 90%;
+        top: 50%;
         z-index: 10;
         font-size: 0;
         width: 20px;
-        height: 30px;
+        height: 35px;
+        border: none;
+        background-color: #ffffff;
     }
 
     .slick-prev {
         left: 0;
-        background: url('../../icons/left.png')0 0 / 100% no-repeat;
+        background: url('../../icons/left.png') 0 0 / 100% no-repeat;
     }
 
     .slick-next {
         right: 0;
-
         background: url('../../icons/right.png') 0 0 / 100% no-repeat;
     }
+
+
 }
 
 .slidertwo {
+
+
     &__item {
-        display: flex;
-        flex-direction: row;
+        padding-top: 50px;
+        text-align: center;
+
+
+        img {
+            border: none;
+            width: 300px;
+            height: 150;
+        }
+
+
     }
 }

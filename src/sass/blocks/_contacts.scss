@@ -1,0 +1,88 @@
+.contacts {
+    margin-top: 200px;
+
+    &__title {
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 44px;
+        color: #05CFDC;
+        text-shadow: 35px -29px 1px#ECEFF0;
+        text-align: right;
+
+    }
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+
+    &__title-form {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        color: $Primery-color;
+
+        span {
+            color: $font-color;
+        }
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    &__contacts__vl {
+        border-left: 6px solid green;
+        height: 500px;
+    }
+
+    &__info-phone {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__info-title {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    &__info-phone {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+
+    }
+
+    &__info-phone {
+        color: #072139;
+
+
+        &:hover {
+            color: #072139;
+            text-decoration: none;
+        }
+    }
+
+    &__mode {
+        margin-top: 30px;
+
+    }
+
+    &__info-time {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+
+        p {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 13px;
+
+        }
+    }
+
+}
