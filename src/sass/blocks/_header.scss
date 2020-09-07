@@ -77,7 +77,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 40px;
+        margin-top: 50px;
     }
 
     &__contact-title {
@@ -104,5 +104,18 @@
 
     &__contact-pagedown {
         margin-top: 25px;
+    }
+
+    .error {
+        border: 1px solid red;
+
+
+    }
+
+    label.error {
+        border: none;
+        text-align: center;
+        margin-bottom: 10px;
+        padding-left: 30px;
     }
 }

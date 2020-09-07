@@ -5,10 +5,10 @@
     align-items: center;
     width: 280px;
 
-    &__inner {
+    .feed-form__inner {
         background-color: #ffff;
         width: 364px;
-        height: 270px;
+        height: 350px;
     }
 
     &__name {
@@ -48,4 +48,6 @@
         margin: 20px 40px;
 
     }
+
+
 }

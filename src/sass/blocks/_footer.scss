@@ -1,9 +1,9 @@
 .footer {
-
+    margin-top: 100px;
 
     &__wrapper {
         background: #072139 center (center/cover) no-repeat;
-        height: 400px;
+        height: 300px;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
@@ -33,10 +33,7 @@
         }
     }
 
-    &__social-right {
-        display: flex;
-        align-content: flex-end;
-    }
+
 
     &__privacy {
 
@@ -49,7 +46,6 @@
     }
 
     &__right {
-
         h3 {
             font-weight: 500;
             font-size: 18px;
@@ -57,5 +53,23 @@
             color: #FCFCFC;
         }
     }
+
+    &__social-right {
+        display: flex;
+        align-items: flex-end;
+        height: 100%;
+        justify-content: flex-end;
+        padding-bottom: 30px;
+
+    }
+
+    &__social {
+        padding: 5px;
+
+        a {
+            padding-left: 20px;
+        }
+    }
+
 
 }
