@@ -12,76 +12,84 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="header__top">
-                <a href="#">
-                    <img src="icons/logo_header.svg" alt="" />
-                </a>
-
-                <nav class="menu">
-                    <ul class="menu__list">
-                        <li class="menu__list-items">
-                            <a href="#" class="menu__list-link">О компании</a>
-                        </li>
-                        <li class="menu__list-items">
-                            <a href="#" class="menu__list-link">Каталог</a>
-                        </li>
-                        <li class="menu__list-items">
-                            <a href="#" class="menu__list-link">Этапы работы</a>
-                        </li>
-                        <li class="menu__list-items">
-                            <a href="#" class="menu__list-link">Контакты</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="header__top-inner">
-                <h1 class="header__title">
-                    Изготовление мебели <span> под заказ</span>
-                </h1>
-                <p class="header__text">
-                    В каждом изделии частичка нашей души, поэтому оно будет радовать вас
-                    долгие годы.
-                </p>
-            </div>
-
-            <div class="header__consultation" id="consultation">
-                <h2 class="header__consultation-title">
-                    <span> Оставьте заявку</span> <br />
-                    и мы вам перезвоним
-                </h2>
-                <form id="#" class="feed-form" action="#">
-                    <fieldset class="feed-form__inner">
-                        <input name="name" placeholder="Ваше имя" type="name" class="feed-form__name" />
-                        <input name="phone" placeholder="Контактный телефон" class="feed-form__phone" />
-                        <button class="button">ЗАКАЗАТЬ ЗВОНОК</button>
-                    </fieldset>
-                </form>
-                <div class="header__contact">
-                    <h2 class="header__contact-title">Или позвоните нам первыми</h2>
-                    <a href="tel:+80993302304" class="header__contact-phone">+380 (99) 330-23-04</a>
-                    <a href="tel:+80681242763" class="header__contact-phone">+380 (68) 124-27-63</a>
-                    <a href="#up" class="header__contact-pagedown">
-                        <img src="icons/pagedown.png" alt="up" />
+    <section class="header-promo" id="up">
+        <header class=" header">
+            <div class="container">
+                <div class="header__top">
+                    <a href="#">
+                        <img src="icons/logo_header.svg" alt="" />
                     </a>
+
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__list-items">
+                                <a href="#company" class="menu__list-link">О компании</a>
+                            </li>
+                            <li class="menu__list-items">
+                                <a href="#catalog" class="menu__list-link">Каталог</a>
+                            </li>
+                            <li class="menu__list-items">
+                                <a href="#step" class="menu__list-link">Этапы работы</a>
+                            </li>
+                            <li class="menu__list-items">
+                                <a href="#contacts" class="menu__list-link">Контакты</a>
+                            </li>
+                        </ul>
+                        <div class="humburger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </nav>
+
+
+                </div>
+                <div class="header__top-inner">
+                    <h1 class="header__title">
+                        Изготовление мебели <span> под заказ</span>
+                    </h1>
+                    <p class="header__text">
+                        В каждом изделии частичка нашей души, поэтому оно будет радовать
+                        вас долгие годы.
+                    </p>
+                </div>
+
+                <div class="header__consultation" id="consultation">
+                    <h2 class="header__consultation-title">
+                        <span> Оставьте заявку</span> <br />
+                        и мы вам перезвоним
+                    </h2>
+                    <form id="#" class="feed-form" action="#">
+                        <fieldset class="feed-form__inner">
+                            <input name="name" placeholder="Ваше имя" type="name" class="feed-form__name" />
+                            <input name="phone" placeholder="Контактный телефон" class="feed-form__phone" />
+                            <button class="button">ЗАКАЗАТЬ ЗВОНОК</button>
+                        </fieldset>
+                    </form>
+                    <div class="header__contact">
+                        <h2 class="header__contact-title">Или позвоните нам первыми</h2>
+                        <a href="tel:+80993302304" class="header__contact-phone">+380 (99) 330-23-04</a>
+                        <a href="tel:+80681242763" class="header__contact-phone">+380 (68) 124-27-63</a>
+                        <a href="#down" class="header__contact-pagedown">
+                            <img src="icons/pagedown.png" alt="up" />
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </header>
-
+        </header>
+    </section>
     <section class="promo">
         <div class="container">
             <div class="promo__items">
                 <div class="promo__item">
-                    <img src="icons/individualapproach.svg" alt="" class="promo__img" />
+                    <img src="icons/individualapproach.svg" alt="" class="promo__img promo__img-looking" />
                     <div class="promo__text">
                         Индивидуальный подход к каждому клиенту
                     </div>
                 </div>
 
                 <div class="promo__item">
-                    <img src="icons/orderontime.svg" alt="" class="promo__img" />
+                    <img src="icons/orderontime.svg" alt="" class="promo__img promo__img-clock" />
                     <div class="promo__text">
                         Заказ выполняем<br />
                         в строго оговоренные сроки
@@ -89,7 +97,7 @@
                 </div>
 
                 <div class="promo__item">
-                    <img src="icons/godeseign.svg" alt="" class="promo__img" />
+                    <img src="icons/godeseign.svg" alt="" class="promo__img promo__img-car" />
                     <div class="promo__text">
                         Выезд замерщика-<br />
                         дизайнера бесплатно
@@ -115,7 +123,7 @@
         </div>
     </section>
 
-    <section class="company">
+    <section id="company" class="company">
         <div class="container">
             <div class="company-wrapper">
                 <div class="company-wrapper__about">
@@ -137,7 +145,7 @@
                         на которую Вы рассчитываете, после чего мы сообщим Вам?<br />
                         что можем предложить (фурнитура, ДСП, фасады, раздвижные сис).
                     </p>
-                    <button class="button__company">ЗАКАЗАТЬ ЗВОНОК</button>
+                    <!--  <button class="button__company">ЗАКАЗАТЬ ЗВОНОК</button> -->
                 </div>
                 <div class="company-wrapper__img">
                     <img src="bg/bg2.jpg" alt="" />
@@ -146,7 +154,7 @@
         </div>
     </section>
 
-    <section class="work">
+    <section id="step" class="work">
         <div class="container">
             <div class="work__wrapper">
                 <h2 class="work__title">КАК МЫ РАБОТАЕМ</h2>
@@ -210,7 +218,7 @@
         </div>
     </section>
 
-    <section class="catalog">
+    <section id="catalog" class="catalog">
         <div class="container">
             <h2 class="catalog__title">КАТАЛОГ</h2>
             <ul class="catalog__tabs">
@@ -261,7 +269,27 @@
                 </div>
             </div>
 
-            <div class="catalog__content"></div>
+            <div class="catalog__content">
+                <!-- <div class="slider-closet">
+                    <div class="slider__item">
+                        <img src="img/lok1.jpg" alt="" />
+                    </div>
+                    <div class="slider__item">
+                        <img src="img/lok2.jpg" alt="" />
+                    </div>
+                    
+                </div>
+
+                <div class="slider-closet-two">
+                    <div class="slider__item">
+                        <img src="img/lok1.jpg" alt="" />
+                    </div>
+                    <div class="slider__item">
+                        <img src="img/lok2.jpg" alt="" />
+                    </div>
+                  
+                </div> -->
+            </div>
 
             <div class="catalog__content"></div>
 
@@ -275,7 +303,7 @@
         </div>
     </section>
 
-    <section class="contacts">
+    <section id="contacts" class="contacts">
         <div class="container">
             <h2 class="contacts__title">КОНТАКТЫ</h2>
             <div class="contacts__wrapper">
@@ -294,7 +322,6 @@
                 </div>
 
                 <div class="contacts__info">
-
                     <div class="contacts__info-phone">
                         <h3 class="contacts__info-title">Телефон</h3>
                         <a href="tel:+80993302304" class="contacts__info-phone">+380 (99) 330-23-04</a>
@@ -306,13 +333,12 @@
                         <p>Пн-Cб 9:00-18:00</p>
                         <p>Вс выходной</p>
                     </div>
-
                 </div>
             </div>
         </div>
     </section>
 
-    <footer class="footer">
+    <footer id="down" class="footer">
         <div class="footer__wrapper">
             <a class="footer__logo" href="#">
                 <img src="icons/logo_footer.svg" alt="" />
@@ -332,25 +358,33 @@
                 </li>
             </ul>
             <div class="footer__privacy">
-                <P>Fags</P>
-                <P>Privacy Policy</P>
-                <P>Cookies Policy</P>
-                <P>Terms & Conditions</P>
+                <p>Fags</p>
+                <p>Privacy Policy</p>
+                <p>Cookies Policy</p>
+                <p>Terms & Conditions</p>
             </div>
             <div class="footer__social-right">
                 <div class="footer__right">
                     <h3>© 2020 SproutsIO. All rights reserved</h3>
                 </div>
                 <div class="footer__social">
-                    <a href="#" class="footer__social-item"><img src="icons/facebook .svg" alt="facebook"></a>
-                    <a href="#" class="footer__social-item"><img src="icons/instagram .svg" alt="instagram"></a>
+                    <a href="#" class="footer__social-item"><img src="icons/facebook .svg" alt="facebook" /></a>
+                    <a href="#" class="footer__social-item"><img src="icons/instagram .svg" alt="instagram" /></a>
                 </div>
             </div>
-
         </div>
-
-
     </footer>
+    <a href="#up" class="pageup"><img src="icons/up.svg" alt="up"></a>
+
+
+    <div class="modal modal_mini" id="thancs">
+        <div class="modal__close">&times;</div>
+        <div class="modal__subtitle">Спасибо за вашу заявку</div>
+        <div class="modal__descr">менеджер свяжится с вами в ближайшее время</div>
+
+    </div>
+
+
 
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>

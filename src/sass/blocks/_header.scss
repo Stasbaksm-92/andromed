@@ -1,7 +1,13 @@
-.header {
+.header-promo {
     background: url('../bg/bg1.jpg') center (center/cover) no-repeat;
     min-height: 1020px;
+    min-width: 1600px;
+
+}
+
+.header {
     padding: 21px 0 93px 0;
+
 
     &__top {
         display: flex;
@@ -9,6 +15,10 @@
     }
 
     .menu {
+        .humburger {
+            display: none;
+        }
+
         &__list {
             padding-top: 20px;
             display: flex;
@@ -58,7 +68,7 @@
         text-align: center;
     }
 
-    &__consultation {}
+
 
     &__consultation-title {
         margin-bottom: 40px;
@@ -104,6 +114,7 @@
 
     &__contact-pagedown {
         margin-top: 25px;
+
     }
 
     .error {

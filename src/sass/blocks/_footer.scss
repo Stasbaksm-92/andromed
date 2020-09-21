@@ -1,8 +1,9 @@
 .footer {
     margin-top: 100px;
+    background-color: #072139;
+    min-width: 1600px;
 
     &__wrapper {
-        background: #072139 center (center/cover) no-repeat;
         height: 300px;
         display: flex;
         justify-content: space-evenly;

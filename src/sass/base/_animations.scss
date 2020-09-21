@@ -1,0 +1,52 @@
+@keyframes looking {
+    from {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes clock {
+
+    0%,
+    50%,
+    100% {
+        transform: rotate(0deg);
+    }
+
+    10%,
+    30% {
+        transform: rotate(-10deg);
+    }
+
+    20%,
+    40% {
+        transform: rotate(10deg);
+    }
+}
+
+
+@keyframes car {
+
+    0% {
+        transform: rotate(0deg);
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: rotate(-20deg);
+        transform: translateY(-50px);
+    }
+
+    100% {
+        transform: translateY(0);
+        transform: rotate(10deg);
+    }
+
+}
